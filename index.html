@@ -1,128 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <title>HTML Beginnings</title>
     <meta charset="UTF-8" />
-
-<style>
-td, th {
-  border: 1px solid;
-  text-align: left;
-  padding: 8px;
-}
-
-#myTeams {
-  background-color: lightblue;
-  color: black;
-  padding: 4px;
-  text-align: center;
-}
-
-
-.sport{
-  background-color: red
-  color: white;
-} 
-</style>
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-
 <body>
+    <div id ="header">
+        <h1>Tinuologo Ojoibukun</h1>
+    </div>
+    <div id ="block">
+        <p>
+            The University of Maryland, College Park<br>
+            B.S. in Information Science, Expected Graduation: May 2020<br>
+            Coursework: Object-Oriented Programming, Database Design and Modeling, 
+            Web Scraping, Statistical Modeling, Regression Analysis<br>
+            Dean’s list: Fall 2018, Spring 2019
 
-<h1><center>My HTML Beginnings</center></h1>
-	<p>
-	It all began by first going to the <a href="https://www.w3schools.com">w3schools </a>
-	website where I would gain the knowledge needed to make this webpage.
-    </p>
-    
-    
-    
-<h2> The Basics</h2>
-	<p>
-    As per the norm, the tutorials began with the basic and eventually ended with the advanced. 
-    Here are some of the lessons learned from the tutorials in the basic section. Most elements require a &ltstart tag&gt and an &ltend tag&gt. 
-    Attributes provide additional information about HTML elements and all elemtents can have attributes.
-     Some examples of attributes are href for links, img for images, and style for specify the styling of an element, like color, font, size etc.
-    </p>
-    
-       
-<h3 style="color:blue;">Formatting</h1> 
-    <p>
-    Now when formating your webpage, there are many different things you can do to change the style of the paragraphs. 
-    You can change the color and alignment of the headings as displayed above. 
-    You can choose to <i>italicize</i>, <b>bolden</b>, <em>emphasize</em>, <sup>superscript</sup>, etc. The choice is yours.
-    </p>
-    
-    
-    
-<h3> Intermediate </h3>
-<p>
-In the intermediate section i was introduced to tables, lists, links, and images. Here are examples for all four.
-<table>
-	<tr>
-		<th>Name</th>
-    	<th>Club</th>
-    	<th>Country</th>
-  </tr>
-  <tr>
-    	<td>Christiano Ronaldo</td>
-		<td>Piemonte Calcio</td>
-    	<td>Portugal</td>
-  </tr>
-  <tr>
-    	<td>Lionel Messi</td>
-    	<td>FC Barcelona</td>
-    	<td>Argentina</td>
-  </tr>
-  <tr>
-    	<td>Kylian Mbappé</td>
-    	<td>PSG</td>
-    	<td>France</td>
-  </tr>
-</table>
-
-<ul>
-  	<li>Colors</li>
-  		<ul>
-    		<li>Green is the best</li>
-        	<li>Blue is a second close</li>
-        	<li>Yellow with a strong finish at third</li>
-    	</ul>
-  	<li>Dogs
-    	<ul>
-      		<li><a href="https://www.dogster.com/wp-content/uploads/2018/04/Bernese-Mountain-Dog_1.jpg">Bernese Mountain Dog</a></li>
-      		<li><img src="https://thehappypuppysite.com/wp-content/uploads/2018/07/how-long-do-golden-retrievers-live-KH-long.jpg" alt="Golden Retriever" width="128" height="128"></li>
-      		<li><a href="https://thehappypuppysite.com/wp-content/uploads/2018/11/mini-australian-shepherd-long.jpg">Mini-Australian Shepherd</a></li>
-    	</ul>
-  	</li>
-	<li>Numbers</li>
-  		<ul>
-    		<li>1 is first</li>
-        	<li>2 comes second</li>
-        	<li>0 is nothing but a myth</li>
-    	</ul>
-</ul>
-
-</p>
-
-<h3> Advanced </h3>
-<p>
-	In the advanced section of the tutorials, i learned how to work with classes and ids'. 
-	Classes are used to define equal styles for elements with the same class name and ids' attribute specifies a unique id for an HTML element.
-</p>
-
-<p id="myTeams">A.C. MIlan</p>
-<p class="sport"> Milan is a football club.</p>
-
-<p id="myTeams">Los Angeles Lakers</p>
-<p class="sport"> Lakers are a basketball organization.</p>
-
-<p id="myTeams">Green Bay Packers</p>
-<p class="sport"> Packers are an American football team.</p>
-
-<h3> Finale </h3>
-<p>
-	There we have it. The tutorials have taken me from a beginner to slightly higher than a beginner. I can only get better, at least I hope so.
-</p>
-
+        </p>
+        <div class=block_companies>
+            <p>
+                Companies I would love to work for:
+                <ul>
+                    <li>
+                        Google
+                    </li>
+                    <li>
+                        Amazon
+                    </li>
+                    <li>
+                        NASA
+                    </li>
+                    <li>
+                        Tesla
+                    </li>
+                    <li>
+                        EA SPORTS<br>
+                        <img src="https://media.contentapi.ea.com/content/dam/eacom/en-us/migrated-images/2017/03/vancouver-grid-ordered-3ups-vancouver.jpg.adapt.crop191x100.1200w.jpg" 
+                        alt="The office of EA Sports in Vancouver, Canada">
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <div class="block_experience">
+            <h3>
+                Work History
+            </h3>
+            <p>
+                <h4>
+                    Cox Automotive
+                </h4>
+                <p>
+                    Title: Driver
+                    <ul>
+                        <li>
+                            Transported auction merchandise for maintenance purposes to prepare for auction.
+                        </li>
+                        <li>
+                            Assisted buyers by answering customer inquiries.
+                        </li>
+                    </ul>
+                </p>
+            </p>
+            <p>
+                <h4>
+                    Weis Markets
+                </h4>
+                <p>
+                    Title: Sales Representative
+                    <ul>
+                        <li>
+                            Provided exceptional customer service through greeting and respectable interaction with customers
+                        </li>
+                        <li>
+                            Assisted in different departments of the company when shorthanded.
+                        </li>
+                        <li>
+                            Trained new employees in department standards and procedures 3 weeks into the job.
+                        </li>
+                    </ul>
+                </p>
+            </p>
+            <p>
+                <h4>
+                    University of Maryland
+                </h4>
+                <p>
+                    Title: Teaching Assistant
+                    <ul>
+                        <li>
+                            Supported students by helping them with their assingments and projects when needed.
+                        </li>
+                        <li>
+                            Aided the professor by helping him grade assingments, quizes, and exams.
+                        </li>
+                        <li>
+                            Conducted exam preparations for students who required help.
+                        </li>
+                    </ul>
+                </p>
+            </p>
+        </div>
+    </div>
 </body>
-</html>
